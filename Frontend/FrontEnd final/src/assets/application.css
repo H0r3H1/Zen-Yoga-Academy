@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app.container{
+    max-width: 900px ;
+    margin: 0 auto;
+}
+.app.body{
+    background-color: #e1d8d8;
+}
+.app.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5) ;
+    border-radius: 10px;
+}
+.app.title_small{
+    font-size: 20px;
+}
+.app.form_container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
+    gap: 20px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+.app.label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.app.input,
+select,
+textarea{
+    padding: 10px 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.app.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;   
+}
+.app.button{
+    background-color: rgb(10, 116, 132);
+    border: transparent solid 8px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+.app.button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.app.address_area{
+    grid-column: 1/span 2;
+}
+.app.address_area textarea{
+    width: 100%;
+}
+@media(max-width:460px)
+{
+    .address_area{
+        grid-column: 1/span 1;
+    }
+}

@@ -1,0 +1,139 @@
+/* Center the content vertically and horizontally */
+.flex {
+  display: contents;
+}
+
+
+.items-center {
+  align-items: center;
+}
+
+/* Styles for the form container */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+  border-radius: 0.375rem; /* Adjust as needed */
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.max-w-md {
+  max-width: 400rem; /* Adjust as needed */
+}
+
+/* Styles for headings */
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #373739, #090909);
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+a {
+  font-weight: 500;
+  color: #252626;
+  text-decoration: inherit;
+}
+
+/* Styles for form inputs */
+.text-gray-700 {
+  color: #2d2d2e;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.block {
+  display: block;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.w-full {
+  width: 70%;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-300 {
+  border-color: #e2e8f0;
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* Adjust as needed */
+}
+
+.dark:border-slate-700 {
+  border-color: #8f9194;
+}
+
+/* Styles for buttons */
+.custom-btn {
+  background-color: #b1b1b4;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: #b8b8bd;
+}
+
+/* Styles for link buttons */
+.space-x-4 > * {
+  margin-right: 1rem; /* Adjust as needed */
+}
+
+.space-x-4 > *:last-child {
+  margin-right: 150px;
+}
